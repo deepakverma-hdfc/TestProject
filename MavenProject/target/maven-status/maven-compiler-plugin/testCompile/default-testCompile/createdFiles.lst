@@ -1,0 +1,4 @@
+com\maventestjenkins\ParallelExecutionMultiBrowser.class
+com\maventestjenkins\TestJenkinsClass2.class
+com\maventestjenkins\TestJenkinsMaven.class
+com\maventestjenkins\ParallelExecutionMultiBrowserTwo.class

@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.maventestjenkins.ParallelExecutionMultiBrowserTwo">
+      <class name="listners.TestNGLIstnersDemo">
         <methods>
-          <include name="multiBrowserDemo"/>
-          <include name="tearDown"/>
-          <include name="multiBrowserSetup"/>
+          <include name="Test2"/>
         </methods>
-      </class> <!-- com.maventestjenkins.ParallelExecutionMultiBrowserTwo -->
+      </class> <!-- listners.TestNGLIstnersDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

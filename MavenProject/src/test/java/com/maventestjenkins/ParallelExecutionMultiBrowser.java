@@ -30,7 +30,7 @@ public class ParallelExecutionMultiBrowser {
 		}
 	}
 
-	@Test(priority = 1)
+	@Test(priority = 2)
 	public void firefoxBroweser() {
 
 		try {

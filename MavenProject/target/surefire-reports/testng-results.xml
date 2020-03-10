@@ -1,41 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Test suite" duration-ms="53" started-at="2020-02-12T21:39:04 IST" finished-at="2020-02-12T21:39:04 IST">
+  <suite name="Suite" duration-ms="78359" started-at="2020-02-13T22:16:25 IST" finished-at="2020-02-13T22:17:44 IST">
     <groups>
     </groups>
-    <test name="Sample Test" duration-ms="53" started-at="2020-02-12T21:39:04 IST" finished-at="2020-02-12T21:39:04 IST">
-      <class name="testngannotationsequence.AnnotationsTest">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testngannotationsequence.AnnotationsTest@13805618]" name="beforeClass" is-config="true" duration-ms="20" started-at="2020-02-12T21:39:04 IST" finished-at="2020-02-12T21:39:04 IST">
+    <test name="ChromeTest" duration-ms="45744" started-at="2020-02-13T22:16:25 IST" finished-at="2020-02-13T22:17:11 IST">
+      <class name="com.maventestjenkins.ParallelExecutionMultiBrowserTwo">
+        <test-method status="PASS" signature="multiBrowserSetup(java.lang.String)[pri:0, instance:com.maventestjenkins.ParallelExecutionMultiBrowserTwo@6e06451e]" name="multiBrowserSetup" is-config="true" duration-ms="38391" started-at="2020-02-13T22:16:25 IST" finished-at="2020-02-13T22:17:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testngannotationsequence.AnnotationsTest@13805618]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-12T21:39:04 IST" finished-at="2020-02-12T21:39:04 IST">
+        </test-method> <!-- multiBrowserSetup -->
+        <test-method status="PASS" signature="multiBrowserDemo()[pri:0, instance:com.maventestjenkins.ParallelExecutionMultiBrowserTwo@6e06451e]" name="multiBrowserDemo" duration-ms="6342" started-at="2020-02-13T22:17:04 IST" finished-at="2020-02-13T22:17:10 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="first()[pri:0, instance:testngannotationsequence.AnnotationsTest@13805618]" name="first" duration-ms="1" started-at="2020-02-12T21:39:04 IST" finished-at="2020-02-12T21:39:04 IST">
+        </test-method> <!-- multiBrowserDemo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.maventestjenkins.ParallelExecutionMultiBrowserTwo@6e06451e]" name="tearDown" is-config="true" duration-ms="749" started-at="2020-02-13T22:17:10 IST" finished-at="2020-02-13T22:17:11 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- first -->
-        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:testngannotationsequence.AnnotationsTest@13805618]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2020-02-12T21:39:04 IST" finished-at="2020-02-12T21:39:04 IST">
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.maventestjenkins.ParallelExecutionMultiBrowserTwo -->
+    </test> <!-- ChromeTest -->
+    <test name="FirefoxTest" duration-ms="78359" started-at="2020-02-13T22:16:25 IST" finished-at="2020-02-13T22:17:44 IST">
+      <class name="com.maventestjenkins.ParallelExecutionMultiBrowserTwo">
+        <test-method status="PASS" signature="multiBrowserSetup(java.lang.String)[pri:0, instance:com.maventestjenkins.ParallelExecutionMultiBrowserTwo@3c0f93f1]" name="multiBrowserSetup" is-config="true" duration-ms="71238" started-at="2020-02-13T22:16:25 IST" finished-at="2020-02-13T22:17:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:testngannotationsequence.AnnotationsTest@13805618]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-02-12T21:39:04 IST" finished-at="2020-02-12T21:39:04 IST">
+        </test-method> <!-- multiBrowserSetup -->
+        <test-method status="PASS" signature="multiBrowserDemo()[pri:0, instance:com.maventestjenkins.ParallelExecutionMultiBrowserTwo@3c0f93f1]" name="multiBrowserDemo" duration-ms="3945" started-at="2020-02-13T22:17:37 IST" finished-at="2020-02-13T22:17:40 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:testngannotationsequence.AnnotationsTest@13805618]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-02-12T21:39:04 IST" finished-at="2020-02-12T21:39:04 IST">
+        </test-method> <!-- multiBrowserDemo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.maventestjenkins.ParallelExecutionMultiBrowserTwo@3c0f93f1]" name="tearDown" is-config="true" duration-ms="3164" started-at="2020-02-13T22:17:40 IST" finished-at="2020-02-13T22:17:44 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testngannotationsequence.AnnotationsTest@13805618]" name="afterSuite" is-config="true" duration-ms="0" started-at="2020-02-12T21:39:04 IST" finished-at="2020-02-12T21:39:04 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- testngannotationsequence.AnnotationsTest -->
-    </test> <!-- Sample Test -->
-  </suite> <!-- Test suite -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.maventestjenkins.ParallelExecutionMultiBrowserTwo -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Suite -->
 </testng-results>

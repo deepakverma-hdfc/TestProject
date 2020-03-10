@@ -1,33 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Test suite]">
+  <listeners>
+    <listener class-name="listeners.TestNGListners"/>
+  </listeners>
   <test thread-count="5" name="Sample Test(failed)">
     <classes>
-      <class name="com.maventestjenkins.ParallelExecutionMultiBrowser">
+      <class name="listeners.TestNGLIstnersDemo2">
         <methods>
-          <include name="chromeBroweser"/>
-          <include name="firefoxBroweser"/>
+          <include name="Test5"/>
         </methods>
-      </class> <!-- com.maventestjenkins.ParallelExecutionMultiBrowser -->
-      <class name="com.maventestjenkins.TestJenkinsClass2">
+      </class> <!-- listeners.TestNGLIstnersDemo2 -->
+      <class name="listeners.TestNGLIstnersDemo">
         <methods>
-          <include name="testJenkinsThree"/>
-          <include name="testJenkinsTwo"/>
+          <include name="Test2"/>
         </methods>
-      </class> <!-- com.maventestjenkins.TestJenkinsClass2 -->
-      <class name="com.maventestjenkins.TestJenkinsMaven">
-        <methods>
-          <include name="sumNumber"/>
-          <include name="mulNumber"/>
-        </methods>
-      </class> <!-- com.maventestjenkins.TestJenkinsMaven -->
-      <class name="com.maventestjenkins.ParallelExecutionMultiBrowserTwo">
-        <methods>
-          <include name="multiBrowserDemo"/>
-          <include name="tearDown"/>
-          <include name="multiBrowserSetup"/>
-        </methods>
-      </class> <!-- com.maventestjenkins.ParallelExecutionMultiBrowserTwo -->
+      </class> <!-- listeners.TestNGLIstnersDemo -->
     </classes>
   </test> <!-- Sample Test(failed) -->
 </suite> <!-- Failed suite [Test suite] -->
